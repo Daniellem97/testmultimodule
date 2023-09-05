@@ -8,7 +8,7 @@ resource "random_uuid" "this" {
   }
 }
 
-resource "random_uuid" "that" {
+resource "random_uuid" "other" {
   keepers = {
     version = var.version_number
   }
