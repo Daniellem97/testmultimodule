@@ -1,5 +1,5 @@
 variable "version_number" {
-  default = 1.1
+  default = 1.0
 }
 
 
