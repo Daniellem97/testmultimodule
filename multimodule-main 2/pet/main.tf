@@ -15,3 +15,8 @@ resource "random_pet" "that" {
   }
 }
 
+resource "random_pet" "theother" {
+  keepers = {
+    version = var.version_number
+  }
+}
