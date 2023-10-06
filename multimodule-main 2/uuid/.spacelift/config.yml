@@ -1,6 +1,4 @@
 version: 1
 module_version: 0.2.0
 
-tests:
-  - name: Default Example
-    project_root: examples/default
+
