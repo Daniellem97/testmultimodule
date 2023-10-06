@@ -1,5 +1,3 @@
-module "uuid_fail" {
-  source = "../../"
-
-  version_number = "invalid_type"
+module "uuid" {
+  source = "fail"
 }
