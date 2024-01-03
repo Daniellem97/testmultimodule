@@ -6,6 +6,6 @@ tests:
     project_root: examples/default
 
 stacks:
-    bterraform-gh-test: &shared
+    terraform-gh-test: &shared
         before_init:
             - terraform --version
