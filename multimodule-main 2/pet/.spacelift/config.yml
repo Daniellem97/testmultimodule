@@ -7,5 +7,4 @@ tests:
 
 stacks:
     terraform-gh-test: &shared
-        before_init:
-            - terraform --version
+
