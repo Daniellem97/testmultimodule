@@ -18,7 +18,3 @@ resource "random_pet" "that" {
 variable "example_variable" {
   default = null
 }
-
-variable "required_variable" {
-  description = "The version number to be used"
-}
