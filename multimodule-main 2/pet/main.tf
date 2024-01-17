@@ -1,5 +1,4 @@
 variable "version_number" {
-  default = 3.0
 }
 
 
