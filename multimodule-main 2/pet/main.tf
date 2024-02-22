@@ -6,8 +6,7 @@ variable "version_number" {
 
 module "pet" {
   source = "../"
-
-  version_number = var.version_number
+  version = var.version_number
   # Include other necessary arguments for the module here
 }
 
