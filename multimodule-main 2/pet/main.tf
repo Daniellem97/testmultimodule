@@ -19,3 +19,7 @@ resource "random_pet" "this" {
 variable "example_variable" {
   default = null
 }
+
+variable "test" {
+  default = null
+}
