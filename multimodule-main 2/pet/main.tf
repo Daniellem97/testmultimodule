@@ -22,7 +22,3 @@ resource "random_pet" "that" {
     version = var.version_number
   }
 }
-
-variable "example_variable" {
-  default = null
-}
