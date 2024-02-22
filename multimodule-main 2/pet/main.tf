@@ -17,12 +17,6 @@ resource "random_pet" "this" {
   }
 }
 
-resource "random_pet" "that" {
-  keepers = {
-    version = var.version_number
-  }
-}
-
 variable "example_variable" {
   default = null
 }
