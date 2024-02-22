@@ -16,9 +16,3 @@ resource "random_pet" "this" {
     version = var.version_number
   }
 }
-
-resource "random_pet" "that" {
-  keepers = {
-    version = var.version_number
-  }
-}
