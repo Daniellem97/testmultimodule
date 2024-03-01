@@ -1,18 +1,8 @@
 version: "1"
 module_version: 5.1.1
+    runner_image: your/first:runner
+
 
 tests:
   - name: Default Example
     project_root: examples/default
-
-stack_defaults:
-    runner_image: your/first:runner
-    # Note that tflint is not installed by
-    # default - this example assumes that your
-    # runner image has this available.
-    before_init:
-        - terraform fmt -check
-        - tflint
-stacks:
-    terraform-gh-test: &shared
-        terraform_version: 0.12.4
