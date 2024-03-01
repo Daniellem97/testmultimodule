@@ -4,6 +4,6 @@ module_version: 5.1.3
 
 tests:
   - name: Basic usage
-    project_root: __tests__
-vendor:
-    terraform:
+  vendor:
+      terraform:
+  
