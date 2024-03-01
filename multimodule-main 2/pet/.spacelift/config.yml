@@ -1,10 +1,10 @@
 version: 1
-module_version: 0.0.8
+module_version: 5.1.1
 
 tests:
   - name: Default Example
     project_root: examples/default
 
 stacks:
-    terraform-gh-test: &shared
-
+  terraform-gh-test: &shared
+    terraform_version: 1.5.5
