@@ -23,6 +23,6 @@ resource "random_pet" "that" {
   }
 }
 
-variable "example_variable1" {
+variable "example_variable3" {
   default = null
 }
