@@ -1,3 +1,3 @@
-module "uuid" {
-  source = "fail"
+module "test" {
+  source = "../../"
 }
