@@ -11,6 +11,7 @@ module "pet" {
   # Include other necessary arguments for the module here
 }
 
+
 resource "random_pet" "this" {
   keepers = {
     version = var.version_number
