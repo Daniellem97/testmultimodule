@@ -4,3 +4,10 @@ module_version: 0.3.0
 tests:
   - name: No-op Test
     project_root: examples/default
+
+stacks:
+    # The key of is the immutable slug of your stack
+    # which you will find in the URL.
+    terraform-default-testmultimodule2: &shared
+        before_plan:
+            - "terraform state list"
