@@ -1,6 +1,8 @@
 version: 1
-module_version: 0.3.0
+module_version: 0.3.3
 
 tests:
   - name: No-op Test
     project_root: examples/default
+    before_apply:
+        - terraform state list
