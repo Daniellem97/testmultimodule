@@ -1,5 +1,5 @@
 version: 1
-module_version: 0.3.8
+module_version: 0.3.9
 
 tests:
   - name: No-op Test
