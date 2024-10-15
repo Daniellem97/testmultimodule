@@ -4,3 +4,4 @@ module_version: 0.3.10
 tests:
   - name: No-op Test
     project_root: examples/default
+
