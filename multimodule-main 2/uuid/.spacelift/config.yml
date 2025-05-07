@@ -1,7 +1,14 @@
 version: 1
-module_version: 0.3.10
+module_version: 0.3.12
 
 tests:
-  - name: No-op Test
+  - name: No-op Test1
     project_root: examples/default
-
+  - name: No-op Test2
+    project_root: examples/default
+  - name: No-op Test3
+    project_root: examples/default
+  - name: No-op Test4
+    project_root: examples/default
+  - name: No-op Test5
+    project_root: examples/default
