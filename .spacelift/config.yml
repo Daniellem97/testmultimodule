@@ -11,8 +11,10 @@ stack_defaults:
 # allows you to override those defaults, and you can
 # merely override individual fields.
 stacks:
-   terraform-default-multimodule: &shared
-        before_init:
+    # The key of is the immutable slug of your stack
+    # which you will find in the URL.
+    terraform-default-multimodule: &shared
+        before_apply:
             - echo "test"
         project_root: multimodule-main 2/uuid/
     terraform-gh-test: &shared
