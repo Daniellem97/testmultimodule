@@ -8,6 +8,7 @@ module "pet" {
   source = "../"
 }
 
+
 resource "random_pet" "this" {
   keepers = {
     version = var.version_number
