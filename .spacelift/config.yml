@@ -1,6 +1,6 @@
 version: "1"
 
-module_defaults:
+stack_defaults:
     before_init:
         - echo "checking formatting"
         - terraform fmt -diff
@@ -10,9 +10,7 @@ module_defaults:
 # optional, and has a reasonable default. This file
 # allows you to override those defaults, and you can
 # merely override individual fields.
-modules:
-    # The key of is the immutable slug of your stack
-    # which you will find in the URL.
+stacks:
    terraform-default-multimodule: &shared
         before_init:
             - echo "test"
