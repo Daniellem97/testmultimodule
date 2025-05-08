@@ -3,9 +3,18 @@ module_version: 5.1.8
 
 
 tests:
-  - name: No-op Test
+  - name: Test1
+    project_root: examples/default
+tests:
+  - name: Test2
+    project_root: examples/default
+tests:
+  - name: Test3
+    project_root: examples/default
+tests:
+  - name: Test4
     project_root: examples/default
 
 vendor:
   terraform:
-    version: "1.0.0" # Specify the desired Terraform version
+    version: "1.0.6" # Specify the desired Terraform version
