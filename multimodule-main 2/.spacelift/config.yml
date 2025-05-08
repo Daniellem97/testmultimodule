@@ -16,7 +16,7 @@ stacks:
     terraform-default-multimodule: &shared
         before_apply:
             - echo "test"
-        project_root: uuid/
+        project_root: uuid
     terraform-gh-test: &shared
          before_init:
             - echo "test2"
