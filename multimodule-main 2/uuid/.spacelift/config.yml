@@ -4,4 +4,11 @@ module_version: 0.3.10
 tests:
   - name: No-op Test
     project_root: examples/default
-
+  - name: No-op Test2
+    project_root: examples/default
+  - name: No-op Test3
+    project_root: examples/default
+  - name: No-op Test4
+    project_root: examples/default
+  - name: No-op Test5
+    project_root: examples/default
