@@ -16,6 +16,7 @@ modules:
    terraform-default-multimodule: &shared
         before_init:
             - echo "test"
+        project_root: multimodule-main 2/uuid/
     terraform-gh-test: &shared
          before_init:
             - echo "test2"
