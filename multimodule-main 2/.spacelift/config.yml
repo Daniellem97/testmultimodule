@@ -1,0 +1,22 @@
+version: "1"
+
+stack_defaults:
+    before_init:
+        - echo "checking formatting"
+        - terraform fmt -diff
+        - tflint
+
+# Note that every field in the configuration is
+# optional, and has a reasonable default. This file
+# allows you to override those defaults, and you can
+# merely override individual fields.
+stacks:
+    # The key of is the immutable slug of your stack
+    # which you will find in the URL.
+    terraform-default-multimodule: &shared
+        before_apply:
+            - echo "test"
+        project_root: uuid
+    terraform-gh-test: &shared
+         before_init:
+            - echo "test2"
